@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+  
+}
+body{
+    margin: auto;
+    width: 90%;
+    background-image: url('../images/bg.gif');
+}
+main{
+    margin-top: 109px;
+}
+.logo{
+    font-family: 'Silkscreen', cursive;
+    font-size: 29px;
+    color: #fff;
+
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 93px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    width: 90%;
+    top: 0;
+    z-index: 2;
+    
+}
+nav{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 22px;
+}
+nav ul a{
+    text-decoration: none;
+    color:#9d9d9d;
+    font-weight: 500;
+}
+nav ul a:hover{
+    color: rgb(255, 255, 255);
+}
+.active{
+    color: rgb(112, 51, 255);
+}
+.button{
+    background: rgb(8, 3, 82);
+    color: #fff;
+    padding: 10px 28px;
+    border-radius: 1px;
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+
+}
+#jumbotron{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgb(255 255 255);
+    background: #432aa5;
+    padding: 15px;
+    height: 500px;
+}
+.jumbotron-header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.jumbotron-header h1{
+    font-size: 130px;
+    font-family: 'Bangers', cursive;
+}
+.jumbotron-header span{
+    color:rgb(0, 0, 0);
+    font-family: 'Bangers', cursive;
+}
+.jumbotron-img{
+    border: 30px solid #ffffff;
+    border-radius: 220px;
+}
+.jumbotron-img img {
+    width: 100%;
+    height: 100%;
+border-top-left-radius: 185px;
+    border-bottom-right-radius: 185px;
+}
+
+.jumbotron-p{
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.jumbotron-button{
+    padding: 7px;
+    width: 200px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    text-decoration: none;
+    border-radius: 1px;
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(8, 3, 82);
+    height: 500px;
+    color: #fff;
+    align-items: center;
+}
+.about-header{
+    font-size: 36px;
+    font-family: 'Bangers', cursive;
+    margin-top: 29px;
+    display: flex;
+    flex-direction: column;
+
+}
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 78px;
+    padding: 10px 93px;
+}
+.about-img{
+    width: 300px;
+    height: 300px;
+    /* border-top-left-radius: 100px;
+    border-top-right-radius: 100px; */
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    transform:translate(20px, 20px)
+}
+
+.about-btn{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+}
+.about-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background: yellow;
+    color: #000;
+    padding: 7px;
+    border-radius: 1px;
+    width: 200px;
+    height: 47px;
+}
+.about-content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+
+}
+#contact{
+    height: 500px;
+    background: #432aa5;
+}
+  .section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font-family: 'Bangers', cursive;
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+  }
+  
+  /* Left contact page */
+  .form-horizontal {
+    /*float: left;*/
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
+  }
+  
+  .form-control, 
+  textarea {
+    max-width: 400px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 1px;
+    width: 400px;
+    border: 0;
+    outline: navajowhite;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .send-button {
+    margin-top: 15px;
+    height: 50px;
+    width: 424px;
+    overflow: hidden;
+    transition: all .2s ease-in-out
+  }
+  
+  .alt-send-button {
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+  }
+  
+  .send-text {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+  }
+  
+  .alt-send-button:hover {
+    transform: translate3d(0px, -29px, 0px);
+  }
+  
+    /* Begin Media Queries*/
+  @media screen and (max-width: 850px) {
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .direct-contact-container, .form-horizontal {
+      margin: 0 auto;
+    }  
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 300px;
+    }    
+    .social-media-list li {
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+    }
+    .social-media-list li:after {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 569px) {
+  
+    .direct-contact-container, .form-wrapper {
+      float: none;
+      margin: 0 auto;
+    }  
+    .form-control, textarea {
+      
+      margin: 0 auto;
+    }
+   
+    
+    .name, .email, textarea {
+      width: 280px;
+    } 
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 280px;
+    }  
+    .social-media-list {
+      left: 0;
+    }
+    .social-media-list li {
+      height: 55px;
+      width: 55px;
+      line-height: 55px;
+      font-size: 2rem;
+    }
+    .social-media-list li:after {
+      width: 55px;
+      height: 55px;
+      line-height: 55px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 410px) {
+    .send-button {
+      width: 99%;
+    }
+  }
+@media screen and (max-width:900px) {
+    header{
+        grid-template-columns: 1fr ;
+       
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+    }
+    .jumbotron-img img {
+        display: none;
+    }
+    #jumbotron{
+        grid-template-columns: 1fr;
+    }
+    .jumbotron-img{
+        display: none;
+    }
+    .jumbotron-header h1{
+        font-size: 100px;
+    }
+    .jumbotron-p{
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .about-content{
+        grid-template-columns: 1fr;
+    }
+    .about{
+        height: 100%;
+        margin-top: 397px;
+    }
+}
