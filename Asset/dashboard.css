@@ -1,0 +1,302 @@
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr 2.6fr;
+    height: 526px;
+    margin-bottom: 20px;
+    
+}
+.sidebar{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right,rgb(0 0 0 / 0%),rgb(14 103 181 / 53%),rgb(10 102 181 / 72%));
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main{
+    background-image: linear-gradient(to right,rgba(7, 103, 182, 0.959),rgba(255, 153, 0, 0),rgba(0, 0, 0, 0.123)),url(../images/bg7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 525px;
+    overflow: auto;
+    
+}
+.main2{
+    background-image: linear-gradient(to right,rgb(0 23 50 / 95%),rgba(255, 153, 0, 0),rgb(187 15 15 / 77%)),url(../images/7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 525px;
+    overflow: auto;
+    
+}
+.main4{
+    background-image: linear-gradient(to right,rgb(0 0 0),rgb(10 69 125 / 42%),rgb(0 0 0)),url(../images/bg8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 525px;
+    overflow: auto;
+    
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+    grid-row-gap: 23px;
+}
+
+/* Image Card */
+.img-card {
+    width: 260px;
+    position: relative;
+    border-radius: 5px;
+    text-align: left;
+    -webkit-box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -o-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 20px 1px rgb(0 0 0 / 59%);
+    background-image: linear-gradient(to right,rgb(255 255 255 / 60%),rgb(255 255 255 / 70%),rgb(255 255 255 / 80%));
+}
+
+    .img-card .card-image {
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 5px 5px 0px 0px;
+        height: 200px;
+    }
+
+    .img-card .card-image img {
+        width:100%;
+        border-radius: 5px 5px 0px 0px;
+        
+        -webkit-transition: all 0.8s;
+        -moz-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s;
+    }
+
+    .img-card .card-image:hover img {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }        
+
+    .img-card .card-text {
+        padding: 0 15px 15px;
+        line-height: 1.5;   
+    }
+
+    .img-card .card-link {
+        padding: 20px 15px 30px;
+        width: -webkit-fill-available;
+    }
+
+        .img-card .card-link button {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+           
+        }
+        .img-card .card-link button span{
+            font-family: 'Bangers', cursive;
+            font-size: 18px;
+            border-bottom: 3px solid rgb(112 51 255);
+        }
+
+        .img-card .card-link a:after {
+            top: 30px;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            width: 0;
+
+            -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        }
+
+        .img-card .card-link a:hover:after { 
+            width: 100%; 
+            left: 0; 
+        }        
+.img-card .card-link a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+.img-card.iCard-style2 .card-title {
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    
+}
+
+.img-card.iCard-style2 .card-image {
+    margin-bottom: 15px;
+}
+
+.img-card.iCard-style2 .card-caption {
+    text-align: center;
+    top: 80%;
+    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+
+    z-index: 1;
+}
+
+.img-card.iCard-style2 .card-link a {
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 3px;
+    color: black;
+    font-size: 13px;
+
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.img-card.iCard-style2 .card-link a:hover {            
+    background: black;
+}
+
+.img-card.iCard-style2 .card-link a:hover span {            
+    color:#fff;            
+}
+.menu{
+    display: grid;
+    height: 63px;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    padding: 10px;
+    grid-gap: 12px;
+    background: #000;
+    margin: 13px;
+    color: #fff;
+    border-radius: 5px;
+    cursor:pointer;
+  
+}
+
+.sd1{
+    box-shadow: 1px 5px 14px 0px #ff00002f;
+}
+.sd2{
+    box-shadow: 1px 5px 14px 0px #ffa60036;
+}
+.sd3{
+    box-shadow: 1px 5px 14px 0px #c300ff28;
+}
+.sd4{
+    box-shadow: 1px 5px 14px 0px #0eff002e;
+}
+.menu img{
+    width:100%;
+    height: 100%;
+}
+.menu span{
+    font-size: 23px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.logout button{
+    font-family: 'Bangers', cursive;
+    color: #fff;
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    margin: 23px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    margin: 23px;
+}
+.taskcontainer {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    height: 100%;  
+  }
+  .price{
+        font-size: 30px;
+    font-family: 'Bangers', cursive;
+  }
+  .taskcontainer .taskcard {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #fff;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .taskcontainer .taskcard:hover {
+    height : 320px;    
+  }
+  .taskcontent h3{
+    font-family: 'Bangers', cursive;
+  }
+  
+  .taskcontainer .taskcard .taskimage {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -40%;
+
+    box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+    z-index: 1;
+  }
+  
+  .taskcontainer .taskcard .taskimage img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .taskcontainer .taskcard .taskcontent {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .taskcontainer .taskcard:hover .taskcontent {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+@media screen and (max-width: 569px){
+    .card-container{
+        grid-template-columns: 1fr ;
+    }
+}

@@ -1,0 +1,100 @@
+.main-container{
+    margin-top: 131px;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    padding: 19px 44px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(0 0 0),rgb(255 153 0 / 19%),rgb(0 0 0)),url(../images/bg1.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.main-container2{
+    margin-top: 131px;
+    height: auto;
+    color: #fff;
+    display: flex;
+    padding: 19px 44px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(0 0 0),rgb(255 153 0 / 19%),rgb(0 0 0)),url(../images/bg5.jpg);
+    background-position: center;
+    background-size: contain;
+
+}
+.main-container3{
+    margin-top: 131px;
+    height: auto;
+    color: #fff;
+    display: flex;
+    padding: 19px 44px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(0 0 0),rgb(0 0 0 / 75%),rgb(0 0 0)),url(../images/bg6.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.main-container a{
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Bangers';
+    letter-spacing: 2px;
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.main-wrapper h2{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.form-input-container{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    width: 400px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    padding: 0 10px;
+    font-size: 19px;
+}
+form button{
+    padding: 7px;
+    width: 200px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    text-decoration: none;
+    border-radius: 1px;
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+}
+.changeform{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.changeform input{
+    width: auto;
+    height: auto;
+    
+}
+.error{
+    color: red;  
+}
+.form-sucess{
+    color: green;
+}
