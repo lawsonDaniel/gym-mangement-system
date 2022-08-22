@@ -2,7 +2,10 @@
 Gym Management System provides an easy to use interface for the users and a database for the admin to maintain the records of gym members.
 
 ## Screenshots
-### Login Page
-![login page](/images/login.png)
-### Members registration page
-![Members registration page](/images/member.png)
+### Select Plan
+![Select plan](/images/s1.png)
+### landing page
+![Members registration page](/images/s2.png)
+
+### Choose Equipment
+![Choose Equipment](/images/s4.png)
