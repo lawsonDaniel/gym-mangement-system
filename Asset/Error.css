@@ -2,7 +2,7 @@
 #notfound {
     position: relative;
     height: 100vh;
-    background-image: linear-gradient(to right,rgb(0 0 0),rgb(10 69 125 / 42%),rgb(0 0 0)),url(../images/bge.jpg);
+    background-image: url(../images/bge.jpg);
     background-position: center;
     margin: auto;
 }
@@ -33,12 +33,14 @@
     color: #ff005a;
     text-decoration: none;
     border: 2px solid;
-    background: transparent;
+    background: black;
     padding: 10px 40px;
-    font-size: 14px;
+    font-size: 23px;
     font-weight: 700;
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
+    border: 0;
+    letter-spacing: 3px;
 }
 .notfound .notfound-404 h2 {
     font-family: 'Bangers', cursive;

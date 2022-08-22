@@ -151,11 +151,58 @@
                 </form>
             </div>
         </div> 
+        <div class="img-card iCard-style2">
+            <div class="card-content">
+                <div class="card-image">
+                    <img src="./images/c9.jpg"/>
+                </div>
+                
+                <span class="card-title">Diet</span>
+                
+                <div class="card-text">
+                    <p>
+                    Reach your goals and demolish them with our awesome, expert certified train
+                    </p>
+                    <div class="price">
+                    ₦ 25,000
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="card-link">
+            <form action="./includes/booking.php" method="post">
+                    <button title="select a plan" name="diet"><span>Select</span></button>
+                </form>
+            </div>
+        </div> 
+        <div class="img-card iCard-style2">
+            <div class="card-content">
+                <div class="card-image">
+                    <img src="./images/c10.webp"/>
+                </div>
+                
+                <span class="card-title">yoga</span>
+                
+                <div class="card-text">
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorem nemo maxime.
+                    </p>
+                    <div class="price">
+                    ₦ 52,000
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="card-link">
+            <form action="./includes/booking.php" method="post">
+                    <button title="select a plan" name="diet"><span>Select</span></button>
+                </form>
+            </div>
+        </div> 
         
-                         
-    </li>
-    
-    <li>
+                        
     </div>
 
  

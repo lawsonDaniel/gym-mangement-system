@@ -7,10 +7,11 @@
 #notfound {
   position: relative;
   height: 100vh;
-  background-image: url('../images/bge.gif');
+  background-image: linear-gradient(to right,rgb(0 0 0),rgb(52 52 52 / 45%),rgb(0 0 0)),url(../images/bge.gif);
   background-position: center;
   margin: auto;
 }
+
 body{
     margin: auto;
     width: 90%;

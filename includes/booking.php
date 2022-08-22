@@ -107,6 +107,22 @@
                 if(!$results){
                     header("location: ../Error.php");
                 }else{
+                    header("location: ../equipment.php");
+                }
+            }else{
+                header("location: ../Error.php");
+            die();
+            }
+        }elseif (isset($_POST['diet'])){
+            $query    = "SELECT * FROM `users` WHERE user_email = '$email'";
+            $result = mysqli_query($conn, $query) or die();
+            $rows = mysqli_num_rows($result);
+            if($rows > 0){
+                $query    = "UPDATE `users` SET `plan` = 'Diet' WHERE `users`.user_email = '$email'";
+                $results =mysqli_query($conn, $query);
+                if(!$results){
+                    header("location: ../Error.php");
+                }else{
                     header("location: ../choseinstructor.php");
                 }
             }else{

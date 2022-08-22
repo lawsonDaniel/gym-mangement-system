@@ -5,6 +5,12 @@
                     <span> select <br/>plans</span>
                 </div>
     </a>
+    <a href="./equipment.php">
+                <div class="menu sd4">
+                    <img src='./images/e4.webp' />
+                    <span> Select <br/>Equipment</span>
+                </div>
+            </a>
             <a href="./choseinstructor.php">
                 <div class="menu sd2">
                     <img src='./images/2.jpg' />
@@ -23,6 +29,7 @@
                     <span> change <br/>booking</span>
                 </div>
             </a>
+           
                 <div class="logout">
                     <form action="./includes/logout.inc.php" method="post">
                         <button name="logout">

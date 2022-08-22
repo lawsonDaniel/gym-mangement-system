@@ -16,8 +16,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/pattern.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <link rel="stylesheet" href="./Asset/Style.css">
   <link rel="stylesheet" href="./Asset/Active.css">
+  <link rel="stylesheet" href="./Asset/Style.css">
 </head>
 <body>
   <?php 
@@ -30,7 +30,7 @@
 <h1>OOPS!</h1>
 <h2>User Has Active Booking</h2>
 </div>
-<a href="./index.php">Homepage</a>
+<a href="./veiwbookings.php">Veiw booking</a>
 </div>
 </div>
 </body>
